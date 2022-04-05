@@ -1,6 +1,6 @@
-class User_input(object):
+import random
 
-    guess = input("Type your answer >")
+list = ["white", "orange", "orange and white"]
 
-    def answer(self):
-        answer = self.correct_answer()
+color = random.choice(list)
+    
